@@ -4,7 +4,7 @@ import whatsapp from "../assets/whatsapp.png";
 import "./Hero.css";
 
 const Header = () => {
-  const phoneNumber = "+1482016561";
+  const phoneNumber = "+1 (484) 201-6561";
 
   const WhatsappClick = () => {
     const url = `https://wa.me/${phoneNumber}`;

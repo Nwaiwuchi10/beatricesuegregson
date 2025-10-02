@@ -33,7 +33,7 @@ const Contact = () => {
 
     setResult("Sending...");
 
-    const whatsappNumber = "+1482016561"; // No '+' for wa.me links
+    const whatsappNumber = "+1 (484) 201-6561"; // No '+' for wa.me links
     const textMessage = `Hello, my name is ${formData.firstName}. My email is ${formData.email}. Here's my message: ${formData.message}`;
 
     const whatsappURL = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(
