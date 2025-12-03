@@ -2,9 +2,10 @@ import profile_img from "../assets/beatrice sue.jpeg";
 import right_arrow_white from "../assets/right-arrow-white.png";
 import whatsapp from "../assets/whatsapp.png";
 import "./Hero.css";
+import { PhoneNumber } from "./PhoneNumber";
 
 const Header = () => {
-  const phoneNumber = "+1 (484) 201-6561";
+  const phoneNumber = PhoneNumber;
 
   const WhatsappClick = () => {
     const url = `https://wa.me/${phoneNumber}`;
